@@ -11,7 +11,7 @@ class Sigmoid:
 
 
 class Affine:
-    def __init__(self, W, b):
+    def __init__(self, W, b): # 重みとバイアスを受け取る
         self.params = [W, b]
 
     def forward(self, x):
